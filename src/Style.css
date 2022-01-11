@@ -1,0 +1,86 @@
+body {
+    color: white;
+    background-image: url("./grad.jpg");
+    background-repeat: no-repeat;
+   
+  }
+#topHead {
+  margin-bottom: 50px;
+  background-image: url("./starsRepeat.png");
+  padding-bottom: 20px;
+}
+h1 {
+  padding-top: 24px;
+}
+
+h1,h2,p,label 
+{
+    text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+#header2Top{
+  font-size: 24px;
+}
+
+#welcomeMsgHead {
+  margin-bottom: 20px;
+}
+
+#welcomeMsg {
+  margin-bottom: 30px;
+}
+
+p,label {
+  font-size: 24px;
+}
+
+.modSelect {
+  max-width: 230px;
+  background-color: black;
+  color: white;
+  border-color: #B2D7F3; 
+  border-width: 3px;
+  border-radius: 5px;
+  margin-bottom: 38px;
+}
+
+label{
+  margin-bottom: 40px;
+}
+
+button{
+  box-shadow: none;
+  background-color: black;
+  border-color: #B2D7F3;
+  border-width: 3px;
+  color: white;
+  border-radius: 16px;
+  padding: 20px;
+  display: block;
+  width: 30%;
+  font-size: 24px;
+ /* transition-duration: 0.4s; */
+}
+
+/*button:hover {
+  background-color: #B2D7F3;
+  color: darkslateblue;
+}*/
+
+#quizBtn, #homeBtn  {
+  margin-left: 190px;
+}
+
+#monthSlct {
+  margin-left: 450px;
+}
+
+#daySlct {
+  margin-left: 15px;
+}
