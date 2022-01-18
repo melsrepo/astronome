@@ -51,7 +51,7 @@ function Quiz () {
   }
   else if((monthState == 'dec' && dayState > 21) || (monthState == 'jan' && dayState <= 19))
     {
-      setSign("capricorn");
+      setSign("Capricorn");
     }
   else if((monthState == 'jan' && dayState > 19)|| (monthState == 'feb' && dayState <= 18))
   {
