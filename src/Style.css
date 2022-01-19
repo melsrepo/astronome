@@ -56,7 +56,8 @@ label{
 
 button{
   box-shadow: none;
-  background-color: black;
+  /*background-color: black;*/
+  background-image: url("./plum-grad.png") ;
   border-color: #B2D7F3;
   border-width: 3px;
   color: white;
@@ -66,6 +67,12 @@ button{
   width: 30%;
   font-size: 24px;
  /* transition-duration: 0.4s; */
+}
+
+.gradient-custom {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(255, 241, 235, 0.5), rgba(172, 224, 249, 0.5));
+
 }
 
 /*button:hover {

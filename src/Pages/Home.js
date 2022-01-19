@@ -2,7 +2,6 @@ import React from 'react';
 import {useNavigate} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container,Row,Col} from 'react-bootstrap';
-import { MDBBtn} from "mdb-react-ui-kit";
 import "../Style.css";
 
 function Home () {
