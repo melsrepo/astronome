@@ -1,12 +1,13 @@
 body {
     color: white;
-    background-image: url("./grad.jpg");
+    background-image: url("./grad-plus-stars.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
    
   }
 #topHead {
   margin-bottom: 50px;
-  background-image: url("./starsRepeat.png");
+  /*background-image: url("./starsRepeat.png"); */
   padding-bottom: 20px;
 }
 h1 {
@@ -56,10 +57,11 @@ label{
 
 button{
   box-shadow: none;
-  /*background-color: black;*/
-  background-image: url("./plum-grad.png") ;
-  border-color: #B2D7F3;
-  border-width: 3px;
+  background-image: url("./shade.png");
+  background-size: cover;
+  border: none;
+  /*border-color: #B2D7F3;
+  border-width: 3px; */
   color: white;
   border-radius: 16px;
   padding: 20px;
@@ -69,16 +71,10 @@ button{
  /* transition-duration: 0.4s; */
 }
 
-.gradient-custom {
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgba(255, 241, 235, 0.5), rgba(172, 224, 249, 0.5));
-
+button:hover {
+  background-image: url("./plum-grad.png");
+  background-size: cover;
 }
-
-/*button:hover {
-  background-color: #B2D7F3;
-  color: darkslateblue;
-}*/
 
 #quizBtn, #homeBtn  {
   margin-left: 190px;
