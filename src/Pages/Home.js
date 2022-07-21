@@ -8,7 +8,7 @@ function Home () {
 let navigate = useNavigate();
   return (
     <div>
-        <h2 id = "welcomeMsgHead" >Welcome to AstronoMe,</h2> 
+        <h3 id = "welcomeMsgHead" >Welcome to AstronoMe,</h3> 
        <p id = "welcomeMsg">where we connect YOU with the stars.
         <br></br>Please use this application to learn your astrological sign!
         </p>
