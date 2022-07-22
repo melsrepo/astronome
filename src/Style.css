@@ -95,4 +95,8 @@ button:hover {
     padding-left: 10px;
 
   }
+  body {
+    background-size: cover;
+
+  }
 }
