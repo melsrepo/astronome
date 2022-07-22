@@ -7,7 +7,7 @@ import "./Style.css";
 function Astronome()
 {
      return (
-          <Router>
+          <HashRouter>
                <div id = "topHead"><h1>AstronoMe</h1> 
                <h2 id = "header2Top">connecting you with the stars</h2>
                </div>
@@ -16,7 +16,7 @@ function Astronome()
                     <Route path = "/quiz" element = {<Quiz />}/> 
                     <Route path = "/result" element = {<Result />}/>
                </Routes>
-          </Router>
+          </HashRouter>
      );
 }
 
