@@ -88,7 +88,7 @@ button:hover {
   margin-left: 15px;
 }
 
-@media all and (orientation: portrait) , (orientation: landscape) and (max-width: 500px) {
+@media all and (orientation: portrait) , (orientation: landscape) {
   button 
   {
     width: 80%;
