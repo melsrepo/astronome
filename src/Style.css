@@ -2,7 +2,7 @@ body {
     color: white;
     background-image: url("./grad-plus-stars.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat; */
    
   }
 #topHead {
@@ -94,8 +94,5 @@ button:hover {
     width: 80%;
     padding-left: 10px;
 
-  }
-  body {
-    background-image: cover;
   }
 }
