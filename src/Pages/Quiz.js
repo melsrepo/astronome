@@ -71,7 +71,7 @@ let navigate = useNavigate();
 return (
     <div>
     <Row><label for="quiz">Please select your birthday</label></Row>
-   <Row> <Col md = {6}>  <Form.Select size = "lg" name="month" className = "modSelect" id="monthSlct" onChange = {(e) => 
+   <Row> <Col xs = {12} md = {6}>  <Form.Select size = "lg" name="month" className = "modSelect" id="monthSlct" onChange = {(e) => 
   {const selectedMonth = e.target.value;
    setMonth(selectedMonth);}}>  
 
