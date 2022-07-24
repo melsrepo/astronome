@@ -88,11 +88,3 @@ button:hover {
   margin-left: 15px;
 }
 
-@media all and (orientation: portrait) , (orientation: landscape) {
-  button 
-  {
-    width: 80%;
-    padding-left: 10px;
-
-  }
-}
