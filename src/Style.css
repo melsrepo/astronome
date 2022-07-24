@@ -88,8 +88,4 @@ button:hover {
   margin-left: 15px;
 }
 
-@media screen and (max-width: 540px) {
-  button {
-      width: 400px;
-  }
-}
+

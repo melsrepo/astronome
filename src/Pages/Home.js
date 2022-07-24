@@ -14,7 +14,7 @@ let navigate = useNavigate();
         </p>
 
     
-    <Row> <Col xs = {0} md = {3}> </Col> <Col xs = {12} > <button id = "homeBtn" onClick = {() => {navigate("/quiz");}} >What's my sign?</button></Col></Row>
+    <Row> <Col xs = {0} md = {3}> </Col> <Col xs = {12} > <button class = "btn btn-primary btn-block" id = "homeBtn" onClick = {() => {navigate("/quiz");}} >What's my sign?</button></Col></Row>
     </div>
   );
 }
