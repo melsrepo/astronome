@@ -12,9 +12,12 @@ let navigate = useNavigate();
        <p id = "welcomeMsg">where we connect YOU with the stars.
         <br></br>Please use this application to learn your astrological sign!
         </p>
-
-    <div class = "col-xs-1" align="center">
-    <button id = "homeBtn" onClick = {() => {navigate("/quiz");}} >What's my sign?</button></div>
+   
+      <Row class="justify-content-md-center">
+     <Container >
+     <button id = "homeBtn" onClick = {() => {navigate("/quiz");}} >What's my sign?</button>
+    </Container> 
+    </Row>
     </div>
   );
 }
