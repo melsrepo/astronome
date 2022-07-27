@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/astronome/static/css/main.6818d445.css",
-    "main.js": "/astronome/static/js/main.c7a32583.js",
+    "main.css": "/astronome/static/css/main.098d6214.css",
+    "main.js": "/astronome/static/js/main.74100790.js",
     "static/media/grad-plus-stars.jpg": "/astronome/static/media/grad-plus-stars.16ec7cd8d9a8c0994de0.jpg",
     "static/media/shade.png": "/astronome/static/media/shade.34e0e741f5d176e374ad.png",
     "static/media/plum-grad.png": "/astronome/static/media/plum-grad.05c836f6c8a1525caf65.png",
     "index.html": "/astronome/index.html",
-    "main.6818d445.css.map": "/astronome/static/css/main.6818d445.css.map",
-    "main.c7a32583.js.map": "/astronome/static/js/main.c7a32583.js.map"
+    "main.098d6214.css.map": "/astronome/static/css/main.098d6214.css.map",
+    "main.74100790.js.map": "/astronome/static/js/main.74100790.js.map"
   },
   "entrypoints": [
-    "static/css/main.6818d445.css",
-    "static/js/main.c7a32583.js"
+    "static/css/main.098d6214.css",
+    "static/js/main.74100790.js"
   ]
 }
