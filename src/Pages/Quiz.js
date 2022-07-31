@@ -90,7 +90,7 @@ return (
   <option value="dec">December</option>
 </Form.Select> </Col>
 
-<Col md = {6}> <Form.Select size = "lg" name="day" className = "modSelect" id="daySlct" onChange = {(e) => 
+<Col xs = {12} md = {6}> <Form.Select size = "lg" name="day" className = "modSelect" id="daySlct" onChange = {(e) => 
   {const selectedDay = e.target.value;
    setDay(selectedDay);}}>
       <option value="defaultDay">Birth day</option>
