@@ -60,10 +60,10 @@ function Quiz () {
   else if((monthState == 'feb' && dayState > 18)|| (monthState == 'mar' && dayState <= 20))
   {
    setSign("Pisces");
-  }
+  }  
     else
-    {setSign("Please select your birth month and day");
-       }   
+    {setSign("");
+      } 
   });
 
 let navigate = useNavigate();

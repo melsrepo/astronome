@@ -76,7 +76,7 @@ button:hover {
   background-size: cover;
 }
 
-#quizBtn, #homeBtn  {
+#quizBtn, #homeBtn, #resultBtn  {
   margin-left: 190px;
 }
 

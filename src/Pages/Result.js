@@ -1,5 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import {useNavigate} from "react-router-dom";
+import {Container,Row,Col, Form} from 'react-bootstrap';
 
 function Cardinal ()
 {
@@ -22,6 +24,25 @@ function Mutable () {
   <br></br>Traits that may describe you are <b>flexible</b> and <b>adaptable</b>. 
   <br></br>Focus on <b>standing by conviction</b></p>
   );
+} 
+
+function Err () {
+  let navigate = useNavigate(); 
+  return (
+  <div>
+  <p>Please make sure to select a birth month and birth day</p>
+  <Row> <Col md = {3}> </Col> <Col md = {9}>
+    <button id = "resultBtn"
+  type="button"
+  onClick= {() => {
+    navigate(
+      "/quiz" 
+    );
+  }}
+>
+  What's my sign?
+</button> </Col> </Row>
+  </div>);
 }
 
   function Result() {
@@ -45,12 +66,11 @@ function Mutable () {
       traitMsg = <Mutable/>
       
       }
-      else {
-          signMode = 'Not';
-          traitMsg = '';
+      else if (s.signState == ''){
+          signMode = '';
+          traitMsg = <Err/>;
       }
-    }
-    
+    }  
 
     return (
       
