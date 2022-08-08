@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import {useNavigate} from "react-router-dom";
-import {Container,Row,Col, Form} from 'react-bootstrap';
+import {Row,Col, Form} from 'react-bootstrap';
 
 function Cardinal ()
 {
@@ -71,14 +71,20 @@ function Err () {
           traitMsg = <Err/>;
       }
     }  
+    
+    const renderResult = (s) => {
+      if (s.signState == 'Capricorn') {
+        return  <h2>Your result is </h2> ;
+    }
+  }
 
     return (
       
       <div>
-          {calcMode(state)}
-          
-        <h2>Your result is </h2> 
+          {calcMode(state)}   
+       
         <div>
+          {renderResult(state)}
           <p><b>{state.signState}</b></p>
           {traitMsg}
         </div>
