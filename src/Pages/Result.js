@@ -31,8 +31,7 @@ function Err () {
   return (
   <div>
   <p>Please make sure to select a birth month and birth day</p>
-  <Row> <Col md = {3}> </Col> <Col md = {9}>
-    <button id = "resultBtn"
+  <Row> <Col md = {3}> </Col> <Col md = {9}><button id = "resultBtn"
   type="button"
   onClick= {() => {
     navigate(
@@ -41,7 +40,7 @@ function Err () {
   }}
 >
   What's my sign?
-</button> </Col> </Row>
+</button></Col></Row>
   </div>);
 }
 
@@ -73,7 +72,7 @@ function Err () {
     }  
     
     const renderResult = (s) => {
-      if (s.signState == 'Capricorn') {
+      if (s.signState != '') {
         return  <h2>Your result is </h2> ;
     }
   }
