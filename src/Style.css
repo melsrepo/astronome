@@ -20,13 +20,13 @@ h1,h2,h3,p,label
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 4rem;/*48px;*/
 }
 h2 {
-  font-size: 36px;
+  font-size: 2.25rem; /*36px;*/
 }
 #header2Top{
-  font-size: 24px;
+  font-size: 1.5rem;/*24px;*/
 }
 
 #welcomeMsgHead {
@@ -38,7 +38,7 @@ h2 {
 }
 
 p,label {
-  font-size: 24px;
+  font-size: 1.5rem; /*24px; */
 }
 
 .modSelect {
@@ -67,7 +67,7 @@ button{
   padding: 20px;
   display: block;
   width: 30%;
-  font-size: 24px;
+  font-size: 1.5rem; /*24px; */
  /* transition-duration: 0.4s; */
 }
 
