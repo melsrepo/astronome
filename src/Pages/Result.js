@@ -31,7 +31,8 @@ function Err () {
   return (
   <div>
   <p>Please make sure to select a birth month and birth day</p>
-  <Row> <Col md = {3}> </Col> <Col md = {9}><button id = "resultBtn"
+  <button 
+    id = "resultBtn"
   type="button"
   onClick= {() => {
     navigate(
@@ -40,7 +41,7 @@ function Err () {
   }}
 >
   What's my sign?
-</button></Col></Row>
+</button>
   </div>);
 }
 
@@ -82,7 +83,7 @@ function Err () {
       <div>
           {calcMode(state)}   
        
-        <div>
+        <div style={{ padding: '16px' }}>
           {renderResult(state)}
           <p><b>{state.signState}</b></p>
           {traitMsg}

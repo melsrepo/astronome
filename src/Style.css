@@ -42,7 +42,7 @@ p,label {
 }
 
 .modSelect {
-  max-width: 230px;
+  max-width: 180px;
   background-color: black;
   color: white;
   border-color: #B2D7F3; 
@@ -66,8 +66,8 @@ button{
   border-radius: 16px;
   padding: 20px;
   display: block;
-  width: 30%;
   font-size: 1.5rem; /*24px; */
+  white-space: nowrap; /* This will prevent text from wrapping (might not be desired) */
  /* transition-duration: 0.4s; */
 }
 
@@ -76,17 +76,17 @@ button:hover {
   background-size: cover;
 }
 
-#quizBtn, #homeBtn, #resultBtn  {
-  margin-left: 190px;
+#homeBtn, #resultBtn, #quizBtn  {
+  margin: 0 auto;
 }
 
 
 #monthSlct {
-  margin-left: 450px;
+/*  margin-left: 450px; Will remove this for now */
 }
 
 #daySlct {
-  margin-left: 15px;
+ /*  margin-left: 15px; */
 }
 
 

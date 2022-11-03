@@ -13,7 +13,7 @@ let navigate = useNavigate();
         <br></br>Please use this application to learn your astrological sign!
         </p>
   
-     <Row> <Col md = {3}> </Col> <Col> <button id = "homeBtn" onClick = {() => {navigate("/quiz");}} >What's my sign?</button></Col></Row>
+     <button id = "homeBtn" onClick = {() => {navigate("/quiz");}} >What's my sign?</button>
     </div>
   );
 }
