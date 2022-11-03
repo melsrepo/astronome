@@ -70,8 +70,9 @@ let navigate = useNavigate();
 
 return (
     <div>
-    <Row><label for="quiz">Please select your birthday</label></Row>
-   <Row> <Col xs = {12} md = {6}>  <Form.Select size = "lg" name="month" className = "modSelect" id="monthSlct" onChange = {(e) => 
+    <label for="quiz" style={{ textAlign: 'center', display: 'block',}}>Please select your birthday</label>
+  <div style={{ display: 'flex', justifyContent: 'center',  }}>
+   <Form.Select size = "lg" name="month" className="modSelect" id="monthSlct" onChange = {(e) => 
   {const selectedMonth = e.target.value;
    setMonth(selectedMonth);}}>  
 
@@ -88,16 +89,17 @@ return (
   <option value="oct">October</option>
   <option value="nov">November</option>
   <option value="dec">December</option>
-</Form.Select> </Col>
+</Form.Select> 
 
-<Col xs = {12} md = {6}> <Form.Select size = "lg" name="day" className = "modSelect" id="daySlct" onChange = {(e) => 
+<Form.Select size = "lg" name="day" className = "modSelect" id="daySlct" onChange = {(e) => 
   {const selectedDay = e.target.value;
    setDay(selectedDay);}}>
       <option value="defaultDay">Birth day</option>
      {Array.from({length: 31 }, (_, i) => i + 1).map(day => <option key={day} value={day}>{day}</option>)}
-</Form.Select> </Col></Row>
+</Form.Select> 
+  </div>
        
-  <Row> <Col md = {3}> </Col> <Col md = {9}><button id = "quizBtn"
+  <button id="quizBtn"
   type="button"
   onClick= {() => {
     navigate(
@@ -107,7 +109,7 @@ return (
   }}
 >
   What's my sign?
-</button> </Col> </Row>
+</button> 
     </div>
   );
 }
