@@ -71,7 +71,7 @@ let navigate = useNavigate();
 return (
     <div>
     <label for="quiz" style={{ textAlign: 'center', display: 'block',}}>Please select your birthday</label>
-  <div style={{ display: 'flex', justifyContent: 'center',  }}>
+  <div style={{ display: 'flex', gap: "32px", justifyContent: 'center',  }}>
    <Form.Select size = "lg" name="month" className="modSelect" id="monthSlct" onChange = {(e) => 
   {const selectedMonth = e.target.value;
    setMonth(selectedMonth);}}>  
